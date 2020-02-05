@@ -5,7 +5,7 @@ node{
  /* stage('Compile-Package'){
    // get maven home path
     def mvnHome = tool name: 'Maven', type: 'maven'
-    sh "${mvnHome}/bin/mvn package" */
+    sh "${mvnHome}/bin/mvn package" 
     
    // properties([parameters([choice(choices: ['master', 'DTPL14'], description: '', name: '')])])
   } */
