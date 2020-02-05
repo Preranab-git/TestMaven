@@ -1,5 +1,4 @@
 node {
-   stages{
    stage('SCM Checkout'){
      git 'https://github.com/Preranab-git/TestMaven.git'
    }
@@ -9,4 +8,3 @@ node {
      bat "${mvnHome}/bin/mvn package"
    } 
  }
-}
