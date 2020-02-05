@@ -1,6 +1,6 @@
 node{
   stage('SCM Checkout'){
-    git 'https://github.com/Preranab-git/TestMaven'
+    git 'https://github.com/Preranab-git/TestMaven.git'
   }
   stage('Compile-Package'){
    // get maven home path
