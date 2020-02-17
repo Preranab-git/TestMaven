@@ -1,4 +1,5 @@
 node {
+   agent { label DTPL14 }
    stage('SCM Checkout'){
      git 'https://github.com/Preranab-git/TestMaven.git'
    }
